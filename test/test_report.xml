@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Catch name="Test">
+  <Group name="Test">
+    <TestCase name="Numeri in una riga" tags="[numsInRow]" filename="/home/edoardo/Scrivania/ProgettoCpp/test/test1.cpp" line="21">
+      <Section name="5 numeri" filename="/home/edoardo/Scrivania/ProgettoCpp/test/test1.cpp" line="22">
+        <OverallResults successes="1" failures="0" expectedFailures="0"/>
+      </Section>
+      <Section name="Nessun numero" filename="/home/edoardo/Scrivania/ProgettoCpp/test/test1.cpp" line="27">
+        <OverallResults successes="1" failures="0" expectedFailures="0"/>
+      </Section>
+      <OverallResult success="true"/>
+    </TestCase>
+    <TestCase name="Solo numeri in una stringa" tags="[NotOnlyNum]" filename="/home/edoardo/Scrivania/ProgettoCpp/test/test1.cpp" line="33">
+      <Section name="Non solo numeri" filename="/home/edoardo/Scrivania/ProgettoCpp/test/test1.cpp" line="34">
+        <OverallResults successes="1" failures="0" expectedFailures="0"/>
+      </Section>
+      <Section name="Solo numeri" filename="/home/edoardo/Scrivania/ProgettoCpp/test/test1.cpp" line="39">
+        <OverallResults successes="1" failures="0" expectedFailures="0"/>
+      </Section>
+      <OverallResult success="true"/>
+    </TestCase>
+    <TestCase name="Numero colonne differente" tags="[differentCols]" filename="/home/edoardo/Scrivania/ProgettoCpp/test/test1.cpp" line="45">
+      <OverallResult success="true"/>
+    </TestCase>
+    <TestCase name="Da matrice a stringa" filename="/home/edoardo/Scrivania/ProgettoCpp/test/test1.cpp" line="53">
+      <Section name="Matrice quadrata" filename="/home/edoardo/Scrivania/ProgettoCpp/test/test1.cpp" line="55">
+        <OverallResults successes="1" failures="0" expectedFailures="0"/>
+      </Section>
+      <Section name="Matrice non quadrata" filename="/home/edoardo/Scrivania/ProgettoCpp/test/test1.cpp" line="80">
+        <OverallResults successes="1" failures="0" expectedFailures="0"/>
+      </Section>
+      <OverallResult success="true"/>
+    </TestCase>
+    <OverallResults successes="11" failures="0" expectedFailures="0"/>
+  </Group>
+  <OverallResults successes="11" failures="0" expectedFailures="0"/>
+</Catch>
