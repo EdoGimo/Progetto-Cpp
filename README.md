@@ -19,6 +19,13 @@ Il programma costruito permette di eseguire la moltiplicazione tra due matrici i
 4. Dare i permessi di esecuzione al file `CppProj` con `chmod +x CppProj`
 5. Eseguire il file `./CppProj` con parametri i due file con le matrici di input e il file di output (esempio: `./bin/CppProj matA matB matC` [nel caso `CppProj` sia in `/bin`])
 
+##### Esempio esecuzione rapida (terminale aperto nella directory principale)
+
+1. `cmake .`
+2. `make install`
+3. `chmod +x ./bin/CppProj`
+4. `./bin/CppProj matA matB matC`
+
 #### make valgrind
 
 Per utilizzare valgrind, dopo aver eseguito `make install`, inserire le matrici in due file chiamati `matA` e `matB`. Con il comando `make valgrind`, eseguito dalla directory principale del progetto, il risultato verrà salvato nel file `matC`.
